@@ -13,3 +13,4 @@ public class multiplicacio3 {
         System.out.println("El resultado es: " + total); 
     }
 }
+

@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class MultiplicacionDinamica { 
+public class multiplicaciodinamica {
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in); 
         System.out.print("Ingrese el primer valor: "); 
