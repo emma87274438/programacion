@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class multiplicaciodinamica {
     public static void main(String[] args) {
-        Scanner lector = new Scanner(System.in); 
+        Scanner lector = new Scanner(System.in);
         System.out.print("Ingrese el primer valor: "); 
         double a = lector.nextDouble(); 
         System.out.print("Ingrese el segundo valor: "); 

@@ -9,6 +9,6 @@ public class descuento {
             float descuento = precio *15/100;
             precio = precio - descuento;
         }
-        System.out.print("el total es:" * precio);
+        System.out.print("el total es:" + precio);
     }
 } 
