@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Imprimir10Nums {
+public class Imprimir10Numeros {
     public static void main(String[] args){
         Scanner lector = new Scanner(System.in);
 
