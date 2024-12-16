@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class multiplicacio3 {
     public static void main(String[] args) {
-        Scanner lector = new Scanner(System.in) 
+        Scanner lector = new Scanner(System.in);
         System.out.print("Ingrese el primer valor: "); 
         double x = lector.nextDouble(); 
         System.out.print("Ingrese el segundo valor: "); 
