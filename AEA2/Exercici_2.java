@@ -16,14 +16,14 @@ public class Exercici_2 {
         System.out.println("Ingrese los elementos del primer vector:");
             for (int i = 0; i < length; i++) {
                 System.out.print("Elemento " + (i + 1) + ":");
-                vector1[i] = scanner.nextInt();
+                    vector1[i] = scanner.nextInt();
         }
         
 
          System.out.println("Ingrese los elementos del segundo vector:");
         for (int i = 0; i < length; i++) {
             System.out.print("Elemento " + (i + 1) + ":");
-            vector2[i] = scanner.nextInt();
+                vector2[i] = scanner.nextInt();
         }
         
 
@@ -38,8 +38,8 @@ public class Exercici_2 {
         System.out.println(); 
 
         System.out.print("Ingrese un valor a buscar en  el primer vector: ");
-        int valorBuscado = scanner.nextInt();
-        boolean found = false;
+             int valorBuscado = scanner.nextInt();
+             boolean found = false;
         for (int i = 0; i < length; i++) {
             if (vector1[i] == valorBuscado) {
                 System.out.println("El valor " + valorBuscado + " se encuentra en la posición " + (i + 1) + " del primer vector.");
@@ -47,7 +47,7 @@ public class Exercici_2 {
                
             }
         }
-        if ( !found) {
+         if ( !found) {
             System.out.println("El valor " + valorBuscado + " no se encuentra en el primer vector.");
         }
         
