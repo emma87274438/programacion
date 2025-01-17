@@ -18,7 +18,5 @@ public class filescolumnes {
            System.out.println();
         }
 
-        
-
     }
 }

@@ -8,12 +8,10 @@ public class trobarmaximin {
     
     int lowestnum = array1[0];
 
-    int highestnum = array1[array1.length];
+    int highestnum = array1[0];
 
-    System.out.println(array1.length);
-
-        for (int i = 0; i < array1.length ; i++){
-            if (lowestnum > array1[i]) {
+        for (int i = 0; i < array1.length; i++){
+            if (lowestnum > array1[i]){
             lowestnum = array1[i];
             }
             if (highestnum < array1[i]){

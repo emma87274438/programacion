@@ -18,7 +18,7 @@ public class canviemvalors {
                     matriu[i][j] = 4; 
                 }
 
-                System.out.println("la posició " +i +" " +j +"de la matriu val:" + matriu[i][j]);
+                System.out.print("["+ matriu[i][j] +"]" );
             }
 
            System.out.println();
