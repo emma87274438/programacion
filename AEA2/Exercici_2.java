@@ -1,5 +1,5 @@
 package AEA2;
-import java.util.Scanner;
+
 
 public class Exercici_2 {
    
@@ -8,7 +8,7 @@ public class Exercici_2 {
         
         
         System.out.print("Ingrese la longitud de los vectores: ");
-         int length = scanner.nextInt();
+         int length = scanner.nextInt();9
         
               int[] vector1 = new int[length];
              int[] vector2 = new int[length];
