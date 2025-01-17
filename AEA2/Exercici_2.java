@@ -1,5 +1,5 @@
 package AEA2;
-
+import java.util.Scanner;
 
 public class Exercici_2 {
    
@@ -8,8 +8,7 @@ public class Exercici_2 {
         
         
         System.out.print("Ingrese la longitud de los vectores: ");
-         int length = scanner.nextInt();9
-        
+         int length = scanner.nextInt();
               int[] vector1 = new int[length];
              int[] vector2 = new int[length];
               int[] Suma = new int[length];
@@ -40,7 +39,6 @@ public class Exercici_2 {
 
         System.out.print("Ingrese un valor a buscar en  el primer vector: ");
         int valorBuscado = scanner.nextInt();
-        
         boolean found = false;
         for (int i = 0; i < length; i++) {
             if (vector1[i] == valorBuscado) {
@@ -49,7 +47,7 @@ public class Exercici_2 {
                
             }
         }
-        if (!found) {
+        if ( !found) {
             System.out.println("El valor " + valorBuscado + " no se encuentra en el primer vector.");
         }
         
