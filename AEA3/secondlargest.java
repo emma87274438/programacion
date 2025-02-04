@@ -1,11 +1,11 @@
-package AEA2;
+package AEA3;
 
 
-public class trobarmaximin {
-    public static void main(String[] args) {
-    int[] array = {12,3,45,-3,65,-5,88,99,2,23,54,33,27,53,96,0};
+public class secondlargest {
 
-    
+    public static void main(String[] args){
+    int[] array = {234, 43, 3, 88, 89, 1, 123, 905};
+
     int secondnum = array[0];
 
     int highestnum = array[0];
